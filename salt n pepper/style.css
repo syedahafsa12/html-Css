@@ -1,18 +1,40 @@
-.header>li{
+.menu>li {
     display: inline-block;
-    color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    vertical-align: baseline;
+    height: 100%;
+    margin: initial;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px;
+  
 }
+
+
 body{
     margin: 0px;
+    background-color: black;
+}
+.inline>ul>li{ background-color: brown;
+    margin-top:1px;
+    margin-bottom: 40px;
+    vertical-align: middle;
 
 }
-.header{
-   padding: 2px 50px;
+
+.header {
+    display: inline-block;
+    padding: 10px 15px;
     background-color: black;
-    height:50px ;
-    width:100%;
-   margin: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
 }
-.header>div>img{
-    margin-top:14px;
+
+.inline>img {
+    display: inline-block;
+    margin-top: 14px;
 }

@@ -1,4 +1,4 @@
-.menu>li {
+/* .menu>li {
     display: inline-block;
     color: white;
     font-size: 18px;
@@ -10,31 +10,89 @@
     vertical-align: middle;
     text-align: center;
     margin: 10px;
-  
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 
-body{
+body {
     margin: 0px;
     background-color: black;
 }
-.inline>ul>li{ background-color: brown;
-    margin-top:1px;
-    margin-bottom: 40px;
+
+.navigation{
+    background-color:  black;
+    margin-top: 1px;
+    margin-bottom: 20px;
     vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .header {
-    display: inline-block;
-    padding: 10px 15px;
+    box-sizing: border-box;
+    /* display: inline-block; */
+/* padding: 10px 15px;
     background-color: black;
     height: 100px;
     width: 100%;
     margin: 0px;
+
 }
 
-.inline>img {
+.img>img {
     display: inline-block;
     margin-top: 14px;
+    background-color: black;
+    cursor: pointer;
+} */
+body {
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    padding: 10px 50px;
+    display: flex;
+}
+
+.header>div>img {
+    margin-top: 15px;
+}
+
+.menu>li {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40px;
+
+
+}
+
+.containerd-inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+/* for mobile */
+@media screen (min-width: 480px) {
+    .header{
+        flex-direction:row;
+    }
+}
+@media screen (max-width: 1000px) {
+    .header{
+        flex-direction:column;
+    }
 }

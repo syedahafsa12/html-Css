@@ -55,6 +55,7 @@ body {
 } */
 body {
     margin: 0px;
+    background-color: black;
 }
 
 .header {
@@ -62,7 +63,6 @@ body {
     background-color: black;
     height: 100px;
     padding: 10px 50px;
-    display: flex;
 }
 
 .header>div>img {
@@ -82,11 +82,30 @@ body {
 .containerd-inline {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 100px;
+    margin-left: 30px;
+}
+.button{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.poster{
+    padding: 0px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /* for mobile */
-@media screen (min-width: 480px) {
+/* @media screen (min-width: 480px) {
     .header{
         flex-direction:row;
     }
@@ -95,4 +114,4 @@ body {
     .header{
         flex-direction:column;
     }
-}
+} */ 

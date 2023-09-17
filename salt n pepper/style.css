@@ -1,62 +1,9 @@
-/* .menu>li {
-    display: inline-block;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 50px;
-    vertical-align: baseline;
-    height: 100%;
-    margin: initial;
-    vertical-align: middle;
-    text-align: center;
-    margin: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
 
-
-}
-
-
-body {
-    margin: 0px;
-    background-color: black;
-}
-
-.navigation{
-    background-color:  black;
-    margin-top: 1px;
-    margin-bottom: 20px;
-    vertical-align: middle;
-    display: inline-block;
-    list-style: none;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.header {
-    box-sizing: border-box;
-    /* display: inline-block; */
-/* padding: 10px 15px;
-    background-color: black;
-    height: 100px;
-    width: 100%;
-    margin: 0px;
-
-}
-
-.img>img {
-    display: inline-block;
-    margin-top: 14px;
-    background-color: black;
-    cursor: pointer;
-} */
 body {
     height: 2000px;
     margin: 0px;
     background-color: black;
+    margin-left: 0px;
    
 }
 
@@ -98,9 +45,10 @@ body {
 }
 
 .poster {
+ 
     padding: 0px;
     background-position: center;
-    background-size: cover;
+   
     margin-left: 0px;
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -109,10 +57,12 @@ body {
     object-fit: cover;
     margin-bottom: 0px;
     vertical-align: middle;
-    margin: 0px;
+    margin-top: 15px;
+    margin-right: 150px;
 }
 
 .h2 {
+    margin-left: 150px;
     font-family: 'serif';
     font-weight: 400;
     font-size: 52px;
@@ -144,25 +94,32 @@ body {
    
 }
 div.box1{
-    background-color: white;
+    color: black;
+    height: 200px;
+    height: 200px;
+    background-color:#6EBEF3;
     width: 300px;
-    height: 250px;
+    height: 215px;
+    margin-left: 0px;
    
     
     
 }
 div.box2{
-    background-color: white;
+    color: black;
+    background-color:#6EBEF3;
     width: 300px;
-    height: 250px;
-    
+    height: 215px;
+    margin-left: 0px;
   
     
 }
 div.box3{
-    background-color: white;
+    color: black;
+    background-color:#6EBEF3;
     width: 300px;
-    height: 250px;
+    height: 215px;
+    margin-left: 2px;
    
    
 }

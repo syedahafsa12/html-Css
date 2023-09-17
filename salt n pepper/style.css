@@ -54,8 +54,10 @@ body {
     cursor: pointer;
 } */
 body {
+    height: 2000px;
     margin: 0px;
     background-color: black;
+   
 }
 
 .header {
@@ -84,7 +86,8 @@ body {
     vertical-align: middle;
     margin-left: 30px;
 }
-.button{
+
+.button {
     background-color: red;
     color: white;
     font-size: 18px;
@@ -93,7 +96,8 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
-.poster{
+
+.poster {
     padding: 0px;
     background-position: center;
     background-size: cover;
@@ -102,7 +106,26 @@ body {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    object-fit: cover;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    margin: 0px;
 }
+
+.h2 {
+    font-family: 'serif';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.h2>span {
+    font-family: Playfair Display;
+}
+
 
 /* for mobile */
 /* @media screen (min-width: 480px) {
@@ -114,4 +137,32 @@ body {
     .header{
         flex-direction:column;
     }
-} */ 
+} */
+.containerboxes{
+    display: flex;
+    justify-content: space-around;
+   
+}
+div.box1{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+   
+    
+    
+}
+div.box2{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    
+  
+    
+}
+div.box3{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+   
+   
+}

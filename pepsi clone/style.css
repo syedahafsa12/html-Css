@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: #0025FF;
+    color: white;
+
+}
+.buypepsiproduct{
+    margin-left: 800px;
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.5em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.navitem{
+    
+}

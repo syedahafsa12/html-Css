@@ -3,6 +3,12 @@
     src: url(/font/sofiapro-light.otf);
 }
 
+@font-face {
+    font-family: pepsi;
+    src: url(PEPSI_pl.ttf);
+}
+
+
 body {
     background-color: black;
 }
@@ -11,13 +17,13 @@ body {
     background-color: #0025FF;
     color: white;
     width: 100%;
-    height
+    height: 100px;
 }
 
 .buypepsiproduct {
     vertical-align: middle;
     font-weight: bold;
-    margin-left: 800px;
+    margin-left: 550px;
     display: inline-block;
     font-size: 0.8em;
 
@@ -33,6 +39,7 @@ body {
 
 
 }
+
 
 @-webkit-keyframes tada {
     0% {
@@ -100,21 +107,15 @@ body {
     }
 }
 
-.animate__tada {
-    -webkit-animation-name: tada;
-    animation-name: tada
-}
-
-
 
 
 .buypepsiproduct:hover {
     background-color: white;
     color: #0025FF;
 
-        -webkit-animation-name: tada;
-        animation-name: tada
-    }
+    -webkit-animation-name: tada;
+    animation-name: tada
+}
 
 
 
@@ -135,4 +136,250 @@ body {
 
 .navbar-brand {
     margin-right: 50px;
+    margin-left: 30px;
+    height: 60px;
+    width: 70px;
+    margin-bottom: 13px;
 }
+
+@-webkit-keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+@keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+.logo:hover {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 0.3s;
+
+}
+
+.firstslider {
+
+    width: 100%;
+    height: 650px;
+    background-color: #004ED0;
+
+}
+
+.colddrinks {
+    width: 600px;
+    height: 650px;
+    left: -80px;
+    margin-left: 0px;
+}
+
+/* .buttonofgetitnow{
+    background-color: white;
+    display: inline-block;
+    color: #004ED0;
+    border:0px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    /* font-weight: bolder;} */
+.text {
+    margin-left: 120px;
+    width: 492px;
+    height: 315px;
+}
+
+/* .black {
+    background-color: black;
+    width: 100%;
+    height: 900px;
+    z-index: 1000; */
+
+
+.text2 {
+    font-family: "Pepsi";
+    font-size: 60px;
+    padding: 2rem 0;
+    color: #004ED0;
+    margin-left: 100px;
+
+}
+.td{
+    margin-left: 75px;
+    border-color:white ;
+}
+.td1 img {
+    border-color: black;
+    width:200px;
+    height:200px;
+}
+
+.td2 img {
+    border-color: black;
+    width:200px;
+    height:200px;
+}
+
+.td3 img {
+    border-color: black;
+    width:200px;
+    height:200px;
+}
+
+.td4 img {
+    border-color: black;
+    width:200px;
+    height:200px;
+}
+
+.td5 img {
+    border-color: black;
+    width:200px;
+    height:200px;
+}
+
+.td6 img {
+    border-color: black;
+    width: 200px;
+    height: 200px;
+}
+/* .footer{
+    background-color:#0025FF;
+    width: 100%;
+    height: 900px;
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+    padding: 2.5%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social-link{
+color: #fff;
+}
+.footer__logo_refresh img{
+    width: 101px;
+    height: 101px;
+    display: block;
+}
+.footer__linklist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Sofia Pro;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+.footer__linklist>link>a{
+    color: #fff !important;
+
+    
+}
+.footer__container-right{
+    margin-top: 40px;
+}
+.link a:hover{
+    text-decoration: none;
+}
+.link a:active{
+    text-decoration: none;
+}
+.link a:visited{
+    text-decoration: none;
+}
+.link a:link{
+    text-decoration: none;
+} */
+.last{
+    margin-top: 40px;
+    background-color:#0025FF;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+
+
+
+}
+.last1{
+   color: azure !important;
+    width: 15%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+.last2{
+   
+    width: 17%;
+    display: inline-block;
+    text-align: center;
+
+    font-family: "Sofia Pro";
+    color: azure;
+    font-size: 1rem;
+    padding-top: 3%;
+    text-transform: uppercase;}
+
+    .last3{
+        width: 17%;
+
+       
+
+        display: inline-block;
+        text-align: center;
+
+        font-family: "Sofia Pro";
+        color: azure;
+        font-size: 1rem;
+        padding-top: 3%;
+        text-transform: uppercase;
+    }.last4{
+       
+        width: 17%;
+        display: inline-block;
+        text-align: center;
+
+        font-family: "Sofia Pro";
+        color: azure;
+        font-size: 1rem;
+        padding-top: 3%;
+        text-transform: uppercase;
+    }
+    .last5{
+
+       
+        width: 34%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+

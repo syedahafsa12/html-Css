@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title" >GMA Survey Form</h1>
+<p id="description" >Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label id="name-label"> Name <Input type="text" id="name" required placeholder="Enter Your Name" /></label> <br>
+   <label id="email-label"> Email <Input type="email" id="email" required placeholder="Enter Your Email" /></label> <br>
+   <label id="number-label"> Number <Input type="number" id="number"  min="10"max="12"required placeholder="No."/></label>
+   <p>Would you recommend GMA to a friend?</p>
+  
+    <input  type="radio" name="radio"checked value="radio"/> Yes
+     <input type="radio" name="radio" value="radio"/> Maybe
+      <input type="radio" name="radio" value="radio"/> Notsure
+      <br>
+  
+<p>What is your age?</p>
+<input type="checkbox" value="12-15"/> 12-15
+<input type="checkbox" value="16-20"/> 16-20
+<input type="checkbox" value="21-30"/> 21-30
+<input type="checkbox" value="31-35"/> 31-35
+<p>Which option best describes your current role?</p>
+<input type="checkbox" value="student"/> Student
+<input type="checkbox" value="job"/> Full time Job
+<input type="checkbox" value="learner"/> Full time Learner
+ <p> What would you like to see improved? </p>
+      <select id="dropdown">
+        <option>Making the website look better</option>
+        <option>Having more helpful stuff to use</option>
+        <option>Making everything easier to use</option>
+        <option>Sharing stories about success and learning</option>
+        <option>Putting more fun things to learn</option>
+        <option>Answering questions better</option>
+        <option>Giving more materials to help with GED preparation</option>
+   </select>
+<p>Any comments or suggestions?</p>
+<textarea placeholder="It would be better if..."></textarea>
+<br>
+<input type="submit" id="submit"/>
+</form>
+
+</body>

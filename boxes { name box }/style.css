@@ -1,0 +1,55 @@
+body {
+    background-color: #2962ff;
+    margin: 0px;
+}
+
+.box {
+    color:black;
+    /* min-width: 300px;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: 700px; */
+}
+
+h1 {
+    margin-top: 60px;
+    margin-left: 110px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.box2 {
+    margin: 0px auto;
+    margin-top: 90px ;
+   background-color: white;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 10px;
+   box-shadow: 10px 10px 5px lightblue;
+    width: 300px;
+    /* max-width: 400px; */
+   height: 300px;
+    /* max-height: 600px; */
+}
+#pass{ 
+    
+    padding:2px;
+    margin: 10px;
+    margin-left: 60px;
+}
+#emal{
+    padding: 2px;
+    margin: 10px;
+    margin-left: 60px;
+}
+.submit{
+    margin-left: 115px;
+    padding: 7px;
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 470px;
+        color:black;
+        background-color: blanchedalmond;
+        margin-right: 470px;
+                        
+    }
